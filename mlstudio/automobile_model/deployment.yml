@@ -1,0 +1,12 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: automobileprices-deployment
+endpoint_name: automobileprices-endpoint
+model: azureml:automobile_model:3
+code_configuration:
+  code: ./Trained_model
+  scoring_script: score.py
+environment:
+  conda_file: ./Trained_model/conda_env.yaml
+  image: mcr.microsoft.com/azureml/minimal-ubuntu20.04-py38-cpu-inference:latest
+instance_type: Standard_DS2_v2
+instance_count: 1

@@ -1,0 +1,32 @@
+[
+  {
+    "make": "mercury",
+    "body-style": "hatchback",
+    "wheel-base": 102.7,
+    "engine-size": 140,
+    "horsepower": "175",
+    "peak-rpm": "5000",
+    "highway-mpg": 24,
+    "price": 16503
+  },
+  {
+    "make": "plymouth",
+    "body-style": "wagon",
+    "wheel-base": 103.3,
+    "engine-size": 122,
+    "horsepower": "88",
+    "peak-rpm": "5000",
+    "highway-mpg": 30,
+    "price": 8921
+  },
+  {
+    "make": "toyota",
+    "body-style": "hatchback",
+    "wheel-base": 95.7,
+    "engine-size": 110,
+    "horsepower": "56",
+    "peak-rpm": "4500",
+    "highway-mpg": 47,
+    "price": 7788
+  }
+]
